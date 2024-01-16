@@ -1,0 +1,46 @@
+body{
+    
+    background-color: aqua;
+}
+
+.mainContainer{
+    display: grid; 
+    grid-template-columns: 25vh 25vh 25vh 25vh 25vh 25vh 25vh;
+   grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh 25vh;
+   padding: 10vh 10vh;
+   justify-content: center;
+    gap: 5vh;
+    border-radius: 15px;
+}
+
+.mainContainer * {
+    border-radius: 15px;
+}
+
+   .mainContainer a{
+    background-color: white;
+    border-radius: 20px;
+
+   }
+   .box{  
+    display: flex;  
+    border-radius: 15px;
+    min-width: 15vh;  
+     min-height: 15vh;
+     margin: 10px;
+    justify-content: center;
+ color: white;
+}
+.row{
+    display: flex;
+    justify-content: center;  
+    
+    }
+    .textnavbar{
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+         display: flex;
+    }
+
+
